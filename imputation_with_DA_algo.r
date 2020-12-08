@@ -30,7 +30,7 @@
 # 4. Visualizing the results can be done with plot_my_bayes() - the JustDoOne flag
 #    must be identical to what was used in your experiment above. 
 #    generate_winning_plots() also shows a percentage that Bayes wins/loses. 
-# See the section on plotting below to find out how to best use these.
+#    See the section on plotting below and the examples for more information.
 # 
 # You can run this full code and it will take several hours or you can use the functions
 # within to do your own simulations. If you want to use the functions below just delete
