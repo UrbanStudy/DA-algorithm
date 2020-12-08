@@ -28,8 +28,9 @@
 #        JustDoOne = TRUE
 #    )
 # 4. Visualizing the results can be done with plot_my_bayes() - the JustDoOne flag
-#    must be identical to what was used in your experiment above. See the section
-#    on plotting below to find out how to best use these.
+#    must be identical to what was used in your experiment above. 
+#    generate_winning_plots() also shows a percentage that Bayes wins/loses. 
+# See the section on plotting below to find out how to best use these.
 # 
 # You can run this full code and it will take several hours or you can use the functions
 # within to do your own simulations. If you want to use the functions below just delete
@@ -186,8 +187,6 @@ mice_run = function(MissingValuesMatrix) {
 # The first function get_plottable_data adds all values into a single dataframe 
 # to make plotting easier.
 #######################################################################################
-
-#plotting
 get_plottable_data = function(AnalyzeDF,  CountOfNA)
 {
     df = as.data.frame(AnalyzeDF[[CountOfNA]][1], col.names = "Winner")
